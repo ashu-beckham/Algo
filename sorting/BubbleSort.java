@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class BubbleSort  {
-
     public static void main (String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the size of array : ");
@@ -22,9 +21,5 @@ public class BubbleSort  {
         System.out.println("Your Sorted Array is : \n");
         for (int x : a)
             System.out.print(x + " ");
-
     }
-
-
-
 }
