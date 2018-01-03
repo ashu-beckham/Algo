@@ -1,13 +1,9 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-import java.math.BigDecimal;
+import java.util.Scanner;
 
 public class Selection_sort  {
 
-    public static void main (String[] args) throws java.lang.Exception {
+    public static void main (String[] args) {
         Scanner in = new Scanner(System.in);
-
         System.out.println("Enter the size of array : ");
         int n = in.nextInt();
         System.out.println("Enter the Array Elements : \n");
@@ -15,10 +11,8 @@ public class Selection_sort  {
         for (int i = 0; i < n; i++)
             a[i] = in.nextInt();
         for (int i = 0; i < n; i++) {
-            //find min for each i.
             for (int j = i + 1; j < n; j++) {
                 if (a[i] > a[j]) {
-                    //swap
                     int temp = a[i];
                     a[i] = a[j];
                     a[j] = temp;
@@ -28,9 +22,5 @@ public class Selection_sort  {
         System.out.println("Your Sorted Array is : \n");
         for (int x : a)
             System.out.print(x + " ");
-
     }
-
-
-
 }
