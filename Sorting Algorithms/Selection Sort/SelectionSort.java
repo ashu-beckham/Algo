@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Selection_sort  {
+public class SelectionSort  {
 
     public static void main (String[] args) {
         Scanner in = new Scanner(System.in);
