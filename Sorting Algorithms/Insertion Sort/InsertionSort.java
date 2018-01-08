@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Insertion_sort  {
+public class InsertionSort  {
     public static void main (String[] args)  {
 
         int[] a = {7, 9, 8, 4, 1, 2, 3, 4, 1, 6, 2, 2};
