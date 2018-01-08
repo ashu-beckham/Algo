@@ -1,31 +1,28 @@
-class BinarySearch{
-    int binarySearch(int arr[], int l, int r, int x)
-    {
-        if (r>=l)
-        {
-            int mid = l + (r - l)/2;
+import java.util.*;
 
-            if (arr[mid] == x)
-               return mid;
- 
-            if (arr[mid] > x)
-               return binarySearch(arr, l, mid-1, x);
+public class BinarySearch  {
+    public static void main (String[] args) {
+        int[] a = {4, 5, 3, 2, 1, 6, 7, 89, 10};
+        Arrays.sort(a); //Array should be sorted.
+        int ind = binarySearch(a, 89);
+        if (ind == -1)
+            System.out.println("Element not found!!!!");
+        else
+            System.out.println("index of 89 in sorted array is : " + ind);
 
-            return binarySearch(arr, mid+1, r, x);
+    }
+    static int binarySearch(int[] a, int x) {
+        int l = 0, r = a.length;
+        while (l < r) {
+            int mid = (l + r) / 2;
+            if (a[mid] == x)
+                return mid;
+            if (a[mid] < x)
+                l = mid + 1;
+            else
+                r = mid - 1;
         }
         return -1;
     }
- 
-    public static void main(String args[])
-    {
-        BinarySearch ob = new BinarySearch();
-        int arr[] = {2,3,4,10,40};
-        int n = arr.length;
-        int x = 10;
-        int result = ob.binarySearch(arr,0,n-1,x);
-        if (result == -1)
-            System.out.println("Element not present");
-        else
-            System.out.println("Element found at index "+result);
-    }
 }
+
