@@ -18,8 +18,11 @@
 * Binary Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Searching%20Algorithms/BinarySearch/BinarySearch.java) 
 * Linear Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Searching%20Algorithms/LinearSearch/LinearSearch.java)
 
+
 ### Graph Algorithms
 * Depth First Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Graph%20Algorithms/DFS.java) 
+* Breadth First Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Graph%20Algorithms/BFS.java) 
+
 
 Collaborators
 * [Ashutosh Yadav](https://github.com/ashu-beckham)
