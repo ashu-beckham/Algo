@@ -17,6 +17,7 @@
 ### Searching Algorithms
 * Binary Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Searching%20Algorithms/BinarySearch/BinarySearch.java) 
 * Linear Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Searching%20Algorithms/LinearSearch/LinearSearch.java)
+* Exponential Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Searching%20Algorithms/ExponentialSearch/ExponentialSearch.java)
 
 
 ### Graph Algorithms
