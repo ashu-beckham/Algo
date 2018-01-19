@@ -2,7 +2,7 @@ import java.util.*;
 import java.math.*;
 
 public class FlyodWarshall{
-	static int INF=Integer.MAX_VALUE;
+	public static int INF=Integer.MAX_VALUE;
 	public static void main(String[] args){
 
 		//lets create a graph having 7 vertices and fill the corresponding distance matrix with some value if there is a edge and large number otherwise.
