@@ -24,7 +24,7 @@
 * Depth First Search [JAVA](https://github.com/ashu-beckham/Algo/blob/master/Graph%20Algorithms/DepthFirstSearch/DFS.java) 
 * Breadth First Search [JAVA](https://github.com/ashu-beckham/Algo/blob/ashu_algo/Graph%20Algorithms/BreadthFirstSearch/BFS.java) 
 * Dijkstras Algorithm [JAVA](https://github.com/ashu-beckham/Algo/blob/ashu_algo/Graph%20Algorithms/DijkstrasAlgorithm/Dijkstras.java)
-
+* FlyodWarshall Algorithm [JAVA](https://github.com/ashu-beckham/Algo/blob/ashu_algo/Graph%20Algorithms/FloydWarshallAlgorithm/FlyodWarshall.java)
 
 Collaborators
 * [Ashutosh Yadav](https://github.com/ashu-beckham)
